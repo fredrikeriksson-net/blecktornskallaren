@@ -1,0 +1,349 @@
+/*
+ Theme Name: Bleckan
+ Author: Fredrik Eriksson
+ Description: Bleckan.se Hemsida
+ Version: 1.0
+ Tags: Mat, Bajen, Öl
+*/
+
+
+	
+/**********
+	GENERAL 
+ **********/
+
+body {
+	background-color: #EFEFEF;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+
+/**********
+	HEADER 
+ **********/
+
+header.mainHeader {
+	margin-bottom: 30px;
+	padding-top: 30px
+}
+
+/* LOGO */
+.mainHeader img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+/* HUVUDMENYN */
+nav.mainMenu {
+	text-align: center;
+	border-top: solid 2px #BDC3C7;
+	border-bottom: solid 3px #BDC3C7;
+	}
+
+nav.mainMenu li {
+	display: inline;
+	padding: 5px;
+	}
+
+nav.mainMenu a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.33em;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav.mainMenu a:hover {
+	color: #FFF;
+	background-color: #CF000F;
+	border-radius: 2px;
+}
+
+nav.mainMenu a:active {
+	color: #000;
+}
+
+
+/*************************
+	CONTENT / FRONT PAGE
+ *************************/
+
+/* FRONTPAGE OCH KONTAKT */
+.content {
+	min-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	border: solid 2px #dedede;
+}
+
+section.content h2 a {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	text-decoration: none;
+	border-bottom: 3px solid #CF000F;
+}
+
+section.content h3 {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	font-size: 24px;
+}
+
+section.content p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #666;
+	margin-right: 30px;
+}
+
+section.content h2 a, h3, p {
+	margin-left: 30px;
+	padding-bottom: 5x;
+}
+
+
+/****************************
+	SIDEBAR CONTENT / SIDEMENU
+ ****************************/
+
+.content_page {
+	max-width: 670px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	padding: 0px;
+	border: double 4px #dedede;
+}
+
+section.content_page a {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	text-decoration: none;
+	margin-left: 30px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #CF000F;
+}
+
+section.content_page p {
+	font-family: 'Lato', sans-serif;
+/*	color: #D91E18;*/
+	font-size: 20px;
+	color: #666;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 0px;
+	margin-top: 0;
+	}
+
+section.content_page h3 {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+
+.sideMenu{
+	background-color: #FFF;
+	float: left; 
+	width: 200px;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	padding: 0px;
+	border: double 4px #dedede;
+	/* margin-right: 30px; */
+}
+
+.sideMenu a {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 5px;
+	}
+	
+.sideMenu a:hover {
+	color: #CF000F;
+}
+
+#menu-meny {
+	padding: 0;
+	text-align: center;	
+	list-style-type: none;
+}
+
+
+/***********
+	AKTUELLT
+ ***********/
+
+body.blog section.content {
+	border: 1px solid #dedede;
+	margin-bottom: 10px;
+	
+}
+
+p.post-info {
+	background-color: #EEE;
+
+}
+
+
+/*********
+	FOOTER 
+ *********/
+
+footer.page_footer {
+	max-width: 960px;
+	border-top: 3px solid #BDC3C7;
+	}
+
+.page_footer li {
+	list-style-type: none;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+}
+
+.page_footer p {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	text-align: left;
+}
+
+address {
+	float: left;	
+	padding: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 10px;
+	text-align: left;
+	}
+
+#googlemapswidget-2 p {
+	border: 1px solid #000;
+	/* margin: 0 auto; */
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/***********************************************
+
+	MOBILE
+
+************************************************/
+
+@media screen and (max-width: 480px) {
+	
+body {
+	background-color: #EEE;
+}
+	
+/**********
+	HEADER 
+**********/
+	
+	
+.mainHeader img {
+	width: 100%;
+}
+
+nav.mainMenu a {
+		font-size: 0.73em;
+		font-weight: 700;
+}
+	
+header.mainHeader {
+	padding-top: 0px
+}
+
+#googlemapswidget-2 > img {
+	width: 100%;
+}
+
+#text-4 {
+margin-left: 0px;	}
+
+	.content_page {
+	max-width: 375px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	padding: 0px;
+	border: double 4px #dedede;
+}
+	
+.sideMenu{
+	min-width: 350px;
+	/* margin: 0 auto; */
+	margin-left: 30px;
+	/* margin-top: 10px; */
+	margin-bottom: 30px;
+}
+	
+	section.content_page p {
+	font-family: 'Lato', sans-serif;
+/*	color: #D91E18;*/
+	font-size: 18px;
+	color: #666;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 0px;
+	margin-top: 0;
+	}
+	
+	section.content_page br {
+		margin-bottom: 10px;
+	}
+
+section.content_page h3 {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+	
+	address {
+	width: 100%;
+	padding: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: left;
+	}
+	
+	address > li {
+		margin-left: 0px;
+		padding-left: 0px;
+		list-style: none;
+	}
+	}
+	
+	
+	
